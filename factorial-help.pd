@@ -1,0 +1,19 @@
+#N canvas 555 30 432 351 10;
+#X floatatom 24 233 5 0 0 0 - - -;
+#X floatatom 24 278 10 0 0 0 - - -;
+#X text 258 310 http://rickygraham.com;
+#X text 21 26 [factorial] v1 (2016) for Pd written by Ricky Graham
+<ricky@rickygraham.net>;
+#X text 23 86 Calculates n! of given integer passed by argument or
+number atom;
+#X text 350 295 rg '16;
+#X text 111 152 pass factorial int as an argument or using atom;
+#X text 21 210 also [n!]:;
+#X floatatom 25 132 5 0 0 0 - - -;
+#X floatatom 25 178 10 0 0 0 - - -;
+#X obj 25 154 factorial 3;
+#X obj 24 258 n! 4;
+#X connect 0 0 11 0;
+#X connect 8 0 10 0;
+#X connect 10 0 9 0;
+#X connect 11 0 1 0;
